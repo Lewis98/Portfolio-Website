@@ -4,19 +4,22 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '/' :
-        renderPage('\views\index.php');
+        renderPage('homepage');
         break;
 
     default:
         http_response_code(404);
-        renderPage('\views\404.php');
+        renderPage('404');
         break;
 }
 
 
-function renderPage($page){
+function renderPage($page, $title = 'Title not Set!', $desc = 'Description not Set!'){
 
-    require __DIR__ . $page;
+    
+    include(__DIR__ . '/views/layout/layout.php');
+
+    require __DIR__ . '/views/' . $page . '.php';
 
 }
 
