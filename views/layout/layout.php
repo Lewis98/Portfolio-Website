@@ -2,6 +2,8 @@
 <html>
   <head>
     
+    <link rel="icon" href="resources/ico/favicon.webp">
+
     <link rel="icon" href="images/favicon.jpg">
     <link rel='stylesheet' href='resources/css/main.css' /> <!-- Site specific CSS -->
     

@@ -4,7 +4,7 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '/' :
-        renderPage('homepage');
+        renderPage('homepage', 'Lewis Stokes - Portfolio');
         break;
 
     default:
