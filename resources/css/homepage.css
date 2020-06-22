@@ -6,3 +6,33 @@
     position: absolute;
     z-index: -1;
 }
+
+#hp-flexcont {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#hp-flexcont :hover{
+    background-color: #FFFFFF;
+}
+
+#hp-flexcont > a {
+    flex: 0 0 19.3333333%;
+    margin: 7%;
+    margin-top : 5%;
+    margin-bottom: 0;
+
+    
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.fleximg {
+    max-height : 30%;
+    max-width : 50%;
+}
