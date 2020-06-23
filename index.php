@@ -17,9 +17,12 @@ switch ($request) {
 function renderPage($page, $title = 'Title not Set!', $desc = 'Description not Set!'){
 
     
-    include(__DIR__ . '/views/layout/layout.php');
+    include(__DIR__ . '/views/layout/layout.php'); // Render Layout php
 
-    require __DIR__ . '/views/' . $page . '.php';
+    require __DIR__ . '/views/partials/header.php';  // Render Header
+
+    require __DIR__ . '/views/' . $page . '.php';  // Render Page
+    
 
 }
 

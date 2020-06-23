@@ -10,6 +10,7 @@ body {
     padding: 0;
     margin : 0;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: var(--cl_white);
 }
 
 .center-contents {
@@ -44,3 +45,7 @@ body {
 .whitespace-1 {
     margin: 10%;
 }
+
+
+
+/* - - - Alignment classes - - - */

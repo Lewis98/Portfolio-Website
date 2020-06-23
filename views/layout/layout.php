@@ -6,6 +6,8 @@
 
     <link rel="icon" href="images/favicon.jpg">
     <link rel='stylesheet' href='resources/css/main.css' /> <!-- Site specific CSS -->
+
+    <link rel='stylesheet' href='resources/css/headfoot.css' /> <!-- Header & Footer specific CSS -->
     
     <link rel='stylesheet' href='resources/css/<?php echo $page ?>.css' /> <!-- Page specific CSS -->
     

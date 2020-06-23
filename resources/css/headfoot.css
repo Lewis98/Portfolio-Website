@@ -1,0 +1,26 @@
+
+
+/* - - - - - Header - - - - - */
+
+#header {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+
+
+#navbar {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar :hover {
+    background-color: white;
+}
+
+#navbar li {
+    float: left;
+    height: 100%;
+}
