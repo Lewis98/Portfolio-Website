@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+
+
+    color: white;
+    opacity: 2;
+}
+
+#backimg {
+    opacity: 0.6;
+}
+
+/* -- overwrites to main.css class --*/
+.container {
+    padding-top: 2.5%;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+
+.contact-btn {
+    height: 150px;
+}
+
+.contact-btn :hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.flex-container a {
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.form-cont {
+    width: 50%;
+    margin: auto;
+}
+
+.form-item {
+    padding-right: 125px;
+}
+
+input[type=text], textarea  {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    
+    display: inline-block;
+    vertical-align: baseline;
+    width: 400px;
+    height: 30px;
+    
+    text-align: center;
+
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+textarea {
+    border: 2px solid white;
+    height: 150px;
+    word-wrap: soft;
+
+    text-align: left;
+
+    font: 12pt "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+    resize: none;
+}
+
+#txtarealbl {
+    vertical-align: top;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 125px;
+
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    border:none;
+    width: 125px;
+    height: 40px;
+
+    font: 12pt "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+/* - - - Contact form submit success message - - - */
+
+#cont-success-container {
+
+    margin-top: 10%;
+
+    position: fixed; /* Sit on top of the page content */
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0;
+    
+
+}
+
+#cont-success-msg {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.fade {
+    animation:fadeinout 5s linear forwards;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeinout {
+    0, 10%, 90%, 100% { opacity:0; }
+    11%, 89% { opacity:1; }
+}

@@ -1,16 +1,46 @@
 :root {
-    --cl_white: #ECEFF1;
+    --cl_white: white;
     --cl_main: #658EA9;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
   /* rgb(106, 187, 219); */
 
+#backimg {
+    margin: 0;
+    width : 100%;
+    top: -75px;
+    position: fixed;
+    z-index: -1;
+
+    overflow: hidden;
+}
 
 body {
     padding: 0;
     margin : 0;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-color: var(--cl_white);
+    /*background-color: var(--cl_white);*/
+    background-color: rgba(0,0,0,1);
+  
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+
+p {
+    font-size: large;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
 }
 
 .center-contents {
@@ -21,31 +51,39 @@ body {
     padding-top: 5%;
 }
 
-.overlay-1 {
-    background-color: grey;
-    width: 70%;
-    height: 30%;
-    margin: 0 auto;
-    background: var(--cl_main); /* Fallback for older browsers without RGBA-support */
-    opacity: 0.6;
-
-    border-radius: 10px;
-
-    padding: 30px;
-
-    text-align: center;
+.container-2 {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
 }
 
-.section-1 {
-    width: 100%;
-    background-color : var(--cl_white);
-    padding: 30px;
-}
+
+
 
 .whitespace-1 {
     margin: 10%;
 }
 
+.flex_break {
+    flex-basis: 100%;
+}
 
 
 /* - - - Alignment classes - - - */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: 750ms;
+}
+
+html.is-animating .transition-fade{
+    opacity: 0;
+}

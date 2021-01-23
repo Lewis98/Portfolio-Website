@@ -1,0 +1,14 @@
+body {
+    background-color : white;
+
+}
+
+#err-title {
+    text-align: center;
+    font-size:60pt;
+}
+
+#err-sub {
+    text-align: center;
+    font-size:40pt;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+#backimg {
+    opacity: 0.6;
+}
+
+
+
+.prj-container {
+    padding: 10%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    color: white;
+}
+
+.prj-timg {
+    margin-right: 10%;
+    margin-left: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+.prj-git-link {
+    color: white;
+    text-decoration: none;
+
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.prj-git-link img{
+    vertical-align: middle;
+}
+
+.prj-container a {
+}
