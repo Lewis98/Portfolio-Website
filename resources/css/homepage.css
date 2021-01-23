@@ -1,0 +1,59 @@
+
+#hp-flexcont {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#hp-flexcont :hover{
+    background-color: #FFFFFF;
+}
+
+#hp-flexcont > a {
+    flex: 0 0 19.3333333%;
+    margin: 7%;
+    margin-top : 5%;
+    margin-bottom: 0;
+
+    
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.fleximg {
+    max-height : 30%;
+    max-width : 50%;
+}
+
+
+.overlay-1 {
+
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+
+    background: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+
+    padding: 30px;
+
+    text-align: center;
+}
+
+.o1-txt {
+    color: var(--cl_white);
+    opacity: 2;
+}
+
+
+.section-1 {
+    display: none;
+
+    width: 100%;
+    background-color : var(--cl_white);
+    padding: 0;
+}
