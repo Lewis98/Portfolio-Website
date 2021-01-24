@@ -2,7 +2,9 @@
 
     $ID = (int)$_GET['type'];
 
-    $conn = new mysqli('localhost', 'LS98', '*u#h{^&?sv!m4T[i', 'id15751735_projects');
+    include(__DIR__ . '/../env.php'); // Environment file
+
+    $conn = new mysqli($DB_Addr, $DB_User, $DB_Pass, $DB_DB);
 
     if($conn->connect_error) {
         header('Location: /500');
