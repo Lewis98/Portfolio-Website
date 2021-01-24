@@ -4,18 +4,18 @@
 
     $conn = new mysqli($DB_Addr, $DB_User, $DB_Pass, $DB_DB);
 
-   /* if($conn->connect_error) {
+    if($conn->connect_error) {
         header('Location: /500');
         die();
-    };*/
+    };
 
     $rows = $conn->query("SELECT * FROM classes");
 
-    /*
+    
     if($rows == false) {
         header('Location: /500');
         die();
-    };*/
+    };
 
 ?>
 
